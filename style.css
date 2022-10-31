@@ -1,0 +1,117 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+.background{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+}
+.tabuleiro {
+    margin: 40px auto;
+    width: 1000px;
+    height: 500px;
+    border: 15px black;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid black;
+    
+}
+h2{
+    position: absolute;
+    color: rgb(217, 0, 69);
+    left: 400px;
+    font-family: verdana;
+}
+
+#btnPlay{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    font-family: verdana;
+  font-weight: bold;
+  color: #14396A !important;
+  font-size: 15px;
+  padding: 8px 9px;
+  border-radius: 19px;
+  border: 2px solid #000000;
+  background: #32EE1D;
+    
+}
+
+.dino {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 1px;
+    bottom: 0px;
+
+}
+
+.cacto {
+    width: 50px;
+    height: 70px;
+    bottom: 0px;
+    position: absolute; 
+    left: 0px;
+}
+
+.fogo{
+    width: 80px;
+    height: 80px;
+    bottom: 150px;
+    position: absolute;
+    left: 0px;
+
+}
+
+.dinoJump{
+    animation: dinoPulo 300ms linear;
+}
+
+.cactoSpeed{
+    animation: cactoAnimation 0.9s infinite linear;
+}
+
+.cactoSpeed_2{
+    animation: cactoAnimation 0.9s infinite linear;
+}
+
+.cactoSpeed_3{
+    animation: cactoAnimation 0.7s infinite linear;
+}
+
+.cactoSpeed_4{
+    animation: cactoAnimation .5s infinite linear;
+}
+
+
+
+@keyframes cactoAnimation {
+    from {
+        left: -10%;
+    }
+    to {
+        left: 100%;
+    }
+} 
+
+@keyframes dinoPulo {
+    0% {
+        bottom: 0%;
+    }
+    50% {
+        bottom: 42%;
+    }
+    100% {
+        bottom: 0%;
+    }
+    }
+    
+
+
