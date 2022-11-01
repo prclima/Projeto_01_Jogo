@@ -1,11 +1,11 @@
 let dinoDoido = document.querySelector('.dino');
 let cacto = document.querySelector('.cacto');
-const fogo = document.querySelector('.fogo');
-const btnPlay = document.getElementById('btnPlay');
+let fogo = document.querySelector('.fogo');
+let btnPlay = document.getElementById('btnPlay');
 let imgBackground = document.querySelector('.background');
-const h2 = document.querySelector('h2')
-const btnRestart = document.getElementById('btnRestart')
-const gameOverDino = document.getElementById('gameOverDino')
+let h2 = document.querySelector('h2')
+let btnRestart = document.getElementById('btnRestart')
+let gameOverDino = document.getElementById('gameOverDino')
 
 
 btnRestart.setAttribute("id", '')

@@ -45,7 +45,9 @@ h2{
   background: #32EE1D;
     
 }
-
+#btnPlay:hover {
+    color: #FF0A0A !important;
+}
 #btnRestart {
     position: absolute;
     bottom: 70%;
@@ -60,7 +62,9 @@ h2{
   background: #eb6240;
 
 }
-
+#btnRestart:hover {
+    color:#32EE1D !important;
+}
 
 
 .dino {
