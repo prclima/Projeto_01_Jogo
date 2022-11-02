@@ -8,4 +8,4 @@ Para recomeçar basta clicar no botão "restart".
 
 O jogo foi desenvolvido usando JavaScript, HTML e CSS.
 
-[Jogar](https://prclima.github.io/Projeto_01_Jogo/).
+[Jogar](https://prclima.github.io/Projeto_01_Jogo/)
