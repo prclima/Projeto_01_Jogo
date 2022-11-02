@@ -8,4 +8,4 @@ Para recomeçar basta clicar no botão "restart".
 
 O jogo foi desenvolvido usando JavaScript, HTML e CSS.
 
-Ajude o coelho a voltar para casa [aqui](https://prclima.github.io/Projeto_01_Jogo/).
+[Jogar](https://prclima.github.io/Projeto_01_Jogo/).
